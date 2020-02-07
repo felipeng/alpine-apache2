@@ -1,4 +1,4 @@
-# Alpine + HTTP
+# Alpine + HTTP + PHP
 
 ## TODO
 * add apache log for the standard output
@@ -8,6 +8,12 @@
 Environment Variables:
 * HTTPD_PORT, default 80
 * CUSTOM_VAR, index content
+
+Paths:
+* /var.html
+* /health
+* /phpinfo.php
+* /hostname.html
 
 ## How to use
 
